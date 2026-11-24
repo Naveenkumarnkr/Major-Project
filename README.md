@@ -9,5 +9,4 @@ Live status on a 16x2 LCD (L1 F0 N1 B0) and on ThingSpeak lamp widgets
 History charts of every ON/OFF change (ThingSpeak field charts)
 Reliability: automatic LCD re-sync after power dips, clear error messages on the LCD, automatic Wi-Fi reconnect, watchdog restart (AT version)
 ## How it works
-
-![CareLink working flowchart](images/carelink_flowchart.png)
+![Uploading carelink_flowchart.png…]()
