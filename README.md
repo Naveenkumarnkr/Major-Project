@@ -8,15 +8,6 @@ Nurse call button on the board: the alarm turns on at once, even without interne
 Live status on a 16x2 LCD (L1 F0 N1 B0) and on ThingSpeak lamp widgets
 History charts of every ON/OFF change (ThingSpeak field charts)
 Reliability: automatic LCD re-sync after power dips, clear error messages on the LCD, automatic Wi-Fi reconnect, watchdog restart (AT version)
-How it works
-mermaid
-flowchart LR
-    A[Nurse: ON/OFF button<br/>ThingSpeak plugin] -->|BED_ON, CALL_OFF...| B[(ThingSpeak<br/>TalkBack queue)]
-    B -->|every 3 s| C[ESP8266<br/>ESP-01]
-    C -->|UART 9600: R1=1| D[LPC2129<br/>ARM7]
-    D --> E[4 relays<br/>bed light, fan,<br/>night lamp, nurse call]
-    D --> F[16x2 LCD]
-    G[SW1 nurse call<br/>button] --> D
-    D -->|UART: S=1001| C
-    C -->|field1..field4| H[(ThingSpeak<br/>channel)]
-    H --> I[Lamps and charts<br/>on the dashboard]
+## How it works
+
+![CareLink working flowchart](images/carelink_flowchart.png)
