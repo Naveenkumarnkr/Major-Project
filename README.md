@@ -9,7 +9,7 @@ Live status on a 16x2 LCD (L1 F0 N1 B0) and on ThingSpeak lamp widgets
 History charts of every ON/OFF change (ThingSpeak field charts)
 Reliability: automatic LCD re-sync after power dips, clear error messages on the LCD, automatic Wi-Fi reconnect, watchdog restart (AT version)
 ## How it works
-<img width="2817" height="5841" alt="image" src="https://github.com/user-attachments/assets/bac9e8f0-e748-49b2-9ad7-3c3d8ace24b8" />
+<img width="281" height="584" alt="image" src="https://github.com/user-attachments/assets/bac9e8f0-e748-49b2-9ad7-3c3d8ace24b8" />
 
 The nurse clicks a button on the channel page. A ThingSpeak plugin adds a command (for example BEDLAMP_ON) to the TalkBack command queue.
 The ESP8266 asks TalkBack for the next command every 3 seconds and sends a short line to the LPC2129 over UART (R1=1).
