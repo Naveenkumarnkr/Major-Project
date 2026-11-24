@@ -1,4 +1,4 @@
-<img width="836" height="431" alt="image" src="https://github.com/user-attachments/assets/9914587b-f30f-4665-9f6f-4af6cb9fce5f" />CareLink: IoT-Based Smart Hospital Ward and Patient Room Controller
+CareLink: IoT-Based Smart Hospital Ward and Patient Room Controller
 
 CareLink lets nurses switch a patient room's bed light, fan and night lamp from a web dashboard, and lets the patient call the nurse with a bedside button. An LPC2129 (ARM7) microcontroller controls the room through relays and a 16x2 LCD, and an ESP8266 (ESP-01) Wi-Fi module connects it to the ThingSpeak IoT cloud.
 The project was first simulated in Proteus 8 and then built and tested on a real LPC2129 development board.
@@ -20,6 +20,8 @@ When the patient presses SW1, the LPC2129 turns the nurse call on immediately an
 <img width="843" height="635" alt="Screenshot 2026-11-24 203844" src="https://github.com/user-attachments/assets/30dfc8e9-7ff3-4279-a053-126aaedd387c" />
 
 <img width="842" height="530" alt="Screenshot 2026-11-24 203944" src="https://github.com/user-attachments/assets/fd69155b-e89b-4434-a792-de0fec275857" />
+
+<img width="836" height="431" alt="image" src="https://github.com/user-attachments/assets/9914587b-f30f-4665-9f6f-4af6cb9fce5f" />
 
 <img width="842" height="467" alt="Screenshot 2026-11-24 204154" src="https://github.com/user-attachments/assets/f7c9f644-5f4c-4b32-9f24-64a415d6fc6e" />
 
